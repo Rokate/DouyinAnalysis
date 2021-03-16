@@ -24,10 +24,6 @@ jobs:
     - name: Get infor
       run: python 91porn.py
 
-    - name: Get ENV
-      env:
-        URL91: ${{ secrets.URL91 }}
-        run: echo $URL91
 
 
 
