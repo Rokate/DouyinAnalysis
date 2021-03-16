@@ -19,7 +19,7 @@ jobs:
       with:
         python-version: '3.8'
     - name: Install dependencies
-      run: python -m pip install --upgrade requestsproject.
+      run: python -m pip install --upgrade requests
       
     - name: 'Get infor'
       run: python 91porn.py
